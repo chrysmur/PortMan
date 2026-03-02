@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/PortMan.Api/PortMan.Api.csproj" />
+    <Project Path="src/PortMan.Application/PortMan.Application.csproj" />
+    <Project Path="src/PortMan.Domain/PortMan.Domain.csproj" />
+    <Project Path="src/PortMan.Infrastructure/PortMan.Infrastructure.csproj" />
+  </Folder>
+
+</Solution>

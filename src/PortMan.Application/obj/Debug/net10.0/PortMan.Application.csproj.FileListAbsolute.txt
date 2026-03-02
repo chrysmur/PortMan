@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\PortMan\src\PortMan.Application\obj\Debug\net10.0\PortMan.Application.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\PortMan\src\PortMan.Application\obj\Debug\net10.0\PortMan.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\PortMan\src\PortMan.Application\obj\Debug\net10.0\PortMan.Application.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\PortMan\src\PortMan.Application\obj\Debug\net10.0\PortMan.Application.AssemblyInfo.cs
+C:\Users\user\source\repos\PortMan\src\PortMan.Application\obj\Debug\net10.0\PortMan.Application.csproj.CoreCompileInputs.cache

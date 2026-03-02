@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.AssemblyInfo.cs
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\PortMan\src\PortMan.Api\obj\Debug\net10.0\PortMan.Api.MvcApplicationPartsAssemblyInfo.cache

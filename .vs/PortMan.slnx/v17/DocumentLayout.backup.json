@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\PortMan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.domain\\helpers\\commontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|solutionrelative:src\\portman.domain\\helpers\\commontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.domain\\entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|solutionrelative:src\\portman.domain\\entities\\billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D9B529-E5BC-13BA-9588-795C84B75F1E}|src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.infrastructure\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D9B529-E5BC-13BA-9588-795C84B75F1E}|src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj|solutionrelative:src\\portman.infrastructure\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.domain\\entities\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|solutionrelative:src\\portman.domain\\entities\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.domain\\entities\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|solutionrelative:src\\portman.domain\\entities\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.domain\\entities\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A9F57E-F02D-A36D-CBD0-AE842F830B10}|src\\PortMan.Domain\\PortMan.Domain.csproj|solutionrelative:src\\portman.domain\\entities\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D9B529-E5BC-13BA-9588-795C84B75F1E}|src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.infrastructure\\portman.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0D9B529-E5BC-13BA-9588-795C84B75F1E}|src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj|solutionrelative:src\\portman.infrastructure\\portman.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\user\\source\\repos\\PortMan\\Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Directory.Packages.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCC9A57-8918-A686-02D3-87255E12AB13}|src\\PortMan.Api\\PortMan.Api.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.api\\portman.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FCC9A57-8918-A686-02D3-87255E12AB13}|src\\PortMan.Api\\PortMan.Api.csproj|solutionrelative:src\\portman.api\\portman.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0780E91-12B8-2CF3-0EA6-188BB199B8C2}|src\\PortMan.Application\\PortMan.Application.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.application\\portman.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0780E91-12B8-2CF3-0EA6-188BB199B8C2}|src\\PortMan.Application\\PortMan.Application.csproj|solutionrelative:src\\portman.application\\portman.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\user\\source\\repos\\PortMan\\Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Directory.Build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FCC9A57-8918-A686-02D3-87255E12AB13}|src\\PortMan.Api\\PortMan.Api.csproj|c:\\users\\user\\source\\repos\\portman\\src\\portman.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FCC9A57-8918-A686-02D3-87255E12AB13}|src\\PortMan.Api\\PortMan.Api.csproj|solutionrelative:src\\portman.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Audit.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Domain\\Entities\\Audit.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Audit.cs",
+              "RelativeToolTip": "src\\PortMan.Domain\\Entities\\Audit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:03:44.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommonTypes.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Helpers\\CommonTypes.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Domain\\Helpers\\CommonTypes.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Helpers\\CommonTypes.cs",
+              "RelativeToolTip": "src\\PortMan.Domain\\Helpers\\CommonTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:27:32.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Billing.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Billing.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Domain\\Entities\\Billing.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Billing.cs",
+              "RelativeToolTip": "src\\PortMan.Domain\\Entities\\Billing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:10:37.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Directory.Packages.props",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\Directory.Packages.props",
+              "RelativeDocumentMoniker": "Directory.Packages.props",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\Directory.Packages.props",
+              "RelativeToolTip": "Directory.Packages.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-02T15:11:44.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Core.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Domain\\Entities\\Core.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Core.cs",
+              "RelativeToolTip": "src\\PortMan.Domain\\Entities\\Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:08:32.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Infrastructure\\DbContext.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Infrastructure\\DbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Infrastructure\\DbContext.cs",
+              "RelativeToolTip": "src\\PortMan.Infrastructure\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T14:55:06.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Identity.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Identity.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Domain\\Entities\\Identity.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\Entities\\Identity.cs",
+              "RelativeToolTip": "src\\PortMan.Domain\\Entities\\Identity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T14:12:48.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\Directory.Build.props",
+              "RelativeDocumentMoniker": "Directory.Build.props",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\Directory.Build.props",
+              "RelativeToolTip": "Directory.Build.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-02T14:10:35.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PortMan.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj",
+              "RelativeToolTip": "src\\PortMan.Infrastructure\\PortMan.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T14:06:45.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PortMan.Application",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Application\\PortMan.Application.csproj",
+              "RelativeDocumentMoniker": "src\\PortMan.Application\\PortMan.Application.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Application\\PortMan.Application.csproj",
+              "RelativeToolTip": "src\\PortMan.Application\\PortMan.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T14:06:33.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PortMan.Api",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Api\\PortMan.Api.csproj",
+              "RelativeDocumentMoniker": "src\\PortMan.Api\\PortMan.Api.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Api\\PortMan.Api.csproj",
+              "RelativeToolTip": "src\\PortMan.Api\\PortMan.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T14:06:16.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\PortMan.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Api\\Program.cs",
+              "RelativeToolTip": "src\\PortMan.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:48:42.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "vZ/rKzFlc2Y=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\PortMan.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "Projects that use central package version management should not define the version on the PackageReference items but on the PackageVersion items: Microsoft.EntityFrameworkCore;SonarAnalyzer.CSharp.",
+      "projectPath": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\PortMan.Domain.csproj",
+      "filePath": "C:\\Users\\user\\source\\repos\\PortMan\\src\\PortMan.Domain\\PortMan.Domain.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
