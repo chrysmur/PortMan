@@ -7,20 +7,20 @@ namespace PortMan.Domain;
 
 public class Tenant
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
     public required string Name { get; set; }
     public required string Email { get; set; }
     public required string Phone { get; set; }
     public required string TaxPin { get; set; }
     public required string Address { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
     public bool IsActive { get; set; }
 }
 
 public class User
 {
-    public Guid Id { get; set; }
+    public Guid Id { get; set; } =  Guid.NewGuid();
     public required string TenantId { get; set; }
     public required string Username { get; set; }
     public required string Email { get; set; }
@@ -28,12 +28,13 @@ public class User
     public required string FirstName { get; set; }
     public required string LastName { get; set; }
     public required string Phone { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
     public bool IsActive { get; set; }
     public bool IsEmailConfirmed { get; set; }
     public bool IsPhoneConfirmed { get; set; }
     public bool IsTwoFactorEnabled { get; set; }
     public bool SMSTwoFactorEnabled { get; set; }
     public bool EmailTwoFactorEnabled { get; set; }
+    public IList<AccessRoles>? Roles { get; } = Array.Empty<AccessRoles>();
 }
