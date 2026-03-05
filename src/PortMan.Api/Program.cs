@@ -36,6 +36,9 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddTransient<ITokenService, TokenService>();
 
+// Register application services
+builder.Services.AddScoped<ILogin, LoginUser>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -47,6 +50,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Map controllers
+app.MapControllers();
 
 app.Run();
 

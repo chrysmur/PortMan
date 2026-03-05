@@ -25,12 +25,6 @@ public class AssetClass
     public required string Code { get; set; }
 }
 
-//public class CouponFrequency
-//{
-//    public Guid Id { get; set; }
-//    public required string Name { get; set; }
-//}
-
 public class Customer
 {
     public Guid Id { get; set; }
