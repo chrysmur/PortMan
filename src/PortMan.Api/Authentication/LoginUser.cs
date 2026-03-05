@@ -10,10 +10,10 @@ namespace PortMan.Api.Authentication;
 
 internal class LoginUser : ILogin
 {
-    private readonly TokenService _tokenService;
+    private readonly ITokenService _tokenService;
     private readonly IUserRepository _userRepository;
 
-    public LoginUser(TokenService tokenService, IUserRepository userRepository)
+    public LoginUser(ITokenService tokenService, IUserRepository userRepository)
     {
         _tokenService = tokenService;
         _userRepository = userRepository;

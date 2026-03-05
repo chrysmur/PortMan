@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PortMan.Api.Authentication;
 
-internal class TokenService : ITokenService
+internal sealed class TokenService : ITokenService
 {
     private IConfiguration _configuration;
     public void Initialize(IConfiguration configuration) => _configuration = configuration;
