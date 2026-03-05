@@ -36,4 +36,5 @@ public class User
     public bool IsTwoFactorEnabled { get; set; }
     public bool SMSTwoFactorEnabled { get; set; }
     public bool EmailTwoFactorEnabled { get; set; }
+    public IList<AccessRoles> Roles { get; set; } = [];
 }
