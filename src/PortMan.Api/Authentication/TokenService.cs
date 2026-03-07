@@ -8,10 +8,8 @@ namespace PortMan.Api.Authentication;
 
 internal class TokenService : ITokenService
 {
-    private IConfiguration _configuration;
-    private IAccessRolesRepository _accessRolesRepository;
-    public void Initialize(IConfiguration configuration) => _configuration = configuration;
-
+    private readonly IConfiguration _configuration;
+    private readonly IAccessRolesRepository _accessRolesRepository;
     public TokenService(IConfiguration configuration, IAccessRolesRepository accessRolesRepository) {
         _configuration = configuration;
         _accessRolesRepository = accessRolesRepository;
