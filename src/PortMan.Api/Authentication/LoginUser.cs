@@ -3,8 +3,10 @@ using System.Net;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using PortMan.Api.Authentication.helpers;
+using PortMan.Application.RoleService;
 using PortMan.Application.UserService;
 using PortMan.Domain;
+using static PortMan.Api.Authentication.permissions.Permissions;
 
 namespace PortMan.Api.Authentication;
 
@@ -12,11 +14,13 @@ internal class LoginUser : ILogin
 {
     private readonly ITokenService _tokenService;
     private readonly IUserRepository _userRepository;
+    private readonly IAccessRolesRepository _accessRolesRepository;
 
-    public LoginUser(ITokenService tokenService, IUserRepository userRepository)
+    public LoginUser(ITokenService tokenService, IUserRepository userRepository, IAccessRolesRepository accessRolesRepository)
     {
         _tokenService = tokenService;
         _userRepository = userRepository;
+        _accessRolesRepository = accessRolesRepository;
     }
     /// <summary>
     /// Validates credentials and generate JWT token if successful. Returns LoginResult with token or error message.
@@ -41,7 +45,7 @@ internal class LoginUser : ILogin
         }
 
         // Retrieve user from database
-        User? user = await _userRepository.GetUserByUsernameAndTenantIdAsync(
+        Domain.User? user = await _userRepository.GetUserByUsernameAndTenantIdAsync(
             username,
             tenantId,
             cancellationToken);
@@ -53,11 +57,19 @@ internal class LoginUser : ILogin
 
         // Build claims
         var claims = new List<Claim>
-    {
+        {
         new(ClaimTypes.NameIdentifier, user.Id.ToString()),
         new(ClaimTypes.Name, user.Username),
         new("TenantId", user.TenantId)
-    };
+        };
+
+
+        //Get user permissions 
+        var permissions = await _accessRolesRepository.GetUserRolesAsync(username, CancellationToken.None);
+        foreach (string permission in permissions)
+        {
+            claims.Add(new Claim("permission", permission));
+        }
 
         if (user.Roles is not null)
         {
