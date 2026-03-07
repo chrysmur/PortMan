@@ -13,6 +13,12 @@ public class AccessGroups
     public Guid TenantId { get; set; }
 }
 
+public class UserRoles
+{
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
+    public Guid RoleId { get; set; }
+}
 public class UserAccessGroups
 {
     public Guid Id { get; set; }

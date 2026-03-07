@@ -303,6 +303,9 @@ dotnet_diagnostic.CA1515.severity = none
 
 # IDE0046: Convert to conditional expression
 dotnet_diagnostic.IDE0046.severity = none
+
+#error CA1852: Seal internal types that derive from System.Attribute
+dotnet_diagnostic.CA1852.severity = none
 @imraja
 imraja
 commented

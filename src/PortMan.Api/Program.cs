@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using PortMan.Api.Authentication;
+using PortMan.Api.Authentication.permissions;
 using PortMan.Application.UserService;
+using PortMan.Application.RoleService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,11 +39,13 @@ builder.Services.AddAuthentication(options =>
 
 // Register application services
 builder.Services.AddAuthorization();
+builder.Services.AddPermissionAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddTransient<ITokenService, TokenService>();
 
 builder.Services.AddScoped<ILogin, LoginUser>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAccessRolesRepository, AccessRolesRepository>();
 
 var app = builder.Build();
 
